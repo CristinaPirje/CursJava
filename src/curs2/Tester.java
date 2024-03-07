@@ -2,8 +2,8 @@ package curs2;
 
 public class Tester {
 	
-	String nume = "Ion";
-	int varsta = 33;
+	private String nume = "Ion";
+	private int varsta = 33;
 	
 	public void afiseazaDetaliiTester() {
 	
@@ -13,10 +13,10 @@ public class Tester {
 	
 	}
 	//constructor
-	public Tester() {
+	//public Tester() {
 		
 		
-	}
+	
 public Tester(String name, int age)	{
 	nume = name;
 	varsta = age;
