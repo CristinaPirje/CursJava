@@ -4,6 +4,8 @@ public class Room {
 	//variabile
 	private int lungime;
 	private int latime;
+	private String culoare ;
+	
 	
 	//metode
 	public int calculArie() {
@@ -19,6 +21,12 @@ public class Room {
 		return 2 * (lungime + latime);
 	}
 	
+	public String afiseazaCuloareDreptunghi() {
+		
+		return culoare;
+		
+	}
+	
 	//constructor
 	
 	public Room(int lungime, int latime) {
@@ -26,6 +34,13 @@ public class Room {
 		this.lungime = lungime;
 		this.latime = latime;
 		
+		
+	}
+	
+	public Room(int lungime, int latime,String culoare) {
+		this.lungime = lungime;
+		this.latime = latime;
+		this.culoare = culoare;
 		
 	}
 	

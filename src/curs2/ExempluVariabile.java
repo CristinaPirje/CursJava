@@ -10,7 +10,7 @@ String prenume;
 		//declarare si initializare
 		String nume = "Bob";
 		//declarare variabila(var age are valoarea default pt data typeint)
-		int age;
+		//int age;
 		ExempluVariabile obiect=new ExempluVariabile();
 		System.out.println(nume);
 		System.out.println(obiect.varsta);
