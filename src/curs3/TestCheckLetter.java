@@ -6,8 +6,11 @@ public class TestCheckLetter {
 
 	public static void main(String[] args) {
 		CheckLetter obj = new CheckLetter();
-		obj.askTheUserForACharacter();
+		//obj.askTheUserForACharacter();
 		obj.checkIfCharacterIsLetter();
+		
+		
+		
 		//Room baie = new Room();
 
 	}

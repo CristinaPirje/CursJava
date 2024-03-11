@@ -22,6 +22,7 @@ public class CheckLetter {
 		
 	}
 	public void checkIfCharacterIsLetter() {
+		askTheUserForACharacter();
 		if(Character.isLetter(caracter)) {
 			System.out.println("Char is letter!");
 			
