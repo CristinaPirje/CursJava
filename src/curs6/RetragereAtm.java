@@ -22,9 +22,7 @@ public class RetragereAtm {
 				System.out.println("Fonduri insuficiente.");
 			}else {
 				System.out.println("Suma invalida");
-			
-			
-			
+		
 		}
 			System.out.println("Introduceti suma pe care doriti sa o retrageti");
 			suma= scan.nextInt();
