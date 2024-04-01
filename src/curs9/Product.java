@@ -1,5 +1,11 @@
 package curs9;
 
-public class Product {
+public abstract class Product {
+	
+	public abstract int calculatePrice();
+	
+	public void productrating() {
+		System.out.println("The best product!");
+	}
 
 }
