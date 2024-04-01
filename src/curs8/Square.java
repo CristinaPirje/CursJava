@@ -6,6 +6,8 @@ public class Square extends Shape {
 		super(culoare,nume);
 		
 	}
+	
+	
 	public void printDetails() {
 		System.out.println("numele este : " +nume+" si culoarea este: " + culoare);
 	}
